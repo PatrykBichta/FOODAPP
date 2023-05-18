@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class DrugaAktywnosc extends AppCompatActivity {
 
@@ -18,12 +19,12 @@ public class DrugaAktywnosc extends AppCompatActivity {
 
 
 
-        Button button = findViewById(R.id.buttonAbout); // Zastąp "myButton" swoim id przycisku
+        Button button = findViewById(R.id.buttonAbout);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Twój kod do uruchomienia kolejnej aktywności
+
                 Intent intent = new Intent(DrugaAktywnosc.this, AboutAktywnosc.class);
                 startActivity(intent);
             }
@@ -31,6 +32,27 @@ public class DrugaAktywnosc extends AppCompatActivity {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+        ImageView imageView = findViewById(R.id.imageView5); // Zastąp "myImageView" swoim id ImageView
+
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Twój kod do uruchomienia kolejnej aktywności
+                Intent intent = new Intent(DrugaAktywnosc.this, LogowanieAktywnosc.class);
+                startActivity(intent);
+            }
+        });
 
 
 
