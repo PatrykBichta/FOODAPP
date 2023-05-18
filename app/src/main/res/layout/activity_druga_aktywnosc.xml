@@ -48,20 +48,10 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="405dp"
-        android:layout_height="407dp"
-        android:layout_marginTop="34dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFiltr"
-        app:srcCompat="@drawable/ramka" />
-
-    <ImageView
         android:id="@+id/imageView5"
         android:layout_width="162dp"
         android:layout_height="167dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="220dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -71,7 +61,7 @@
         android:id="@+id/imageView6"
         android:layout_width="154dp"
         android:layout_height="169dp"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="220dp"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="parent"
