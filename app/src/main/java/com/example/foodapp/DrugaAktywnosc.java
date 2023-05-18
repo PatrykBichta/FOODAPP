@@ -43,12 +43,12 @@ public class DrugaAktywnosc extends AppCompatActivity {
 
 
 
-        ImageView imageView = findViewById(R.id.imageView5); // Zastąp "myImageView" swoim id ImageView
+        ImageView imageView = findViewById(R.id.imageView5);
 
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Twój kod do uruchomienia kolejnej aktywności
+
                 Intent intent = new Intent(DrugaAktywnosc.this, LogowanieAktywnosc.class);
                 startActivity(intent);
             }

@@ -16,11 +16,11 @@ public class MainActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                // Twój kod do przejścia do drugiej aktywności
+
                 Intent intent = new Intent(MainActivity.this, DrugaAktywnosc.class);
                 startActivity(intent);
-                finish(); // Opcjonalnie, aby zamknąć pierwszą aktywność po przejściu do drugiej
+                finish();
             }
-        }, 3000); // 3000 milisekund = 3 sekundy
+        }, 3000);
     }
 }
