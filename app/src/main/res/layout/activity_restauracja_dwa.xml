@@ -6,4 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".RestauracjaDwa">
 
+    <Button
+        android:id="@+id/buttonWROC3"
+        android:layout_width="196dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="10dp"
+        android:text="WRÓĆ"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
