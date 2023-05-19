@@ -13,6 +13,9 @@
         android:theme="@style/Theme.FOODAPP"
         tools:targetApi="31">
         <activity
+            android:name=".RestauracjaDwa"
+            android:exported="false" />
+        <activity
             android:name=".RestauracjaJeden"
             android:exported="false" />
         <activity
@@ -20,9 +23,6 @@
             android:exported="false" />
         <activity
             android:name=".AboutAktywnosc"
-            android:exported="false" />
-        <activity
-            android:name=".Activity_logowanie"
             android:exported="false" />
         <activity
             android:name=".DrugaAktywnosc"
