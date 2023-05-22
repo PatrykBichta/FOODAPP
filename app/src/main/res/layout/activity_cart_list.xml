@@ -153,7 +153,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                app:srcCompat="@drawable/IconHome" />
+                                app:srcCompat="@drawable/iconhome"/>
 
                             <TextView
                                 android:id="@+id/textViewHome"
@@ -175,7 +175,7 @@
                                 android:id="@+id/imageView12"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                app:srcCompat="@drawable/IconProfile" />
+                                app:srcCompat="@drawable/iconprofile"/>
 
                             <TextView
                                 android:id="@+id/textViewProfile"
@@ -199,7 +199,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                app:srcCompat="@drawable/IconCart" />
+                                app:srcCompat="@drawable/iconcart"/>
 
                             <TextView
                                 android:id="@+id/textViewCart"
@@ -222,7 +222,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                app:srcCompat="@drawable/IconSupport" />
+                                app:srcCompat="@drawable/iconsupport" />
 
                             <TextView
                                 android:id="@+id/textViewSupport"
@@ -245,7 +245,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                app:srcCompat="@drawable/IconSettings" />
+                                app:srcCompat="@drawable/iconsettings" />
 
                             <TextView
                                 android:id="@+id/textView11"
