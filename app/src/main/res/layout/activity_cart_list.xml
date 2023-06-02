@@ -6,21 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".CartListActivity">
 
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="161dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="15dp"
+        android:text="Podsumowanie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="412dp"
+        android:layout_height="459dp"
+        android:layout_marginBottom="272dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textViewMyCart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="My Cart"
+                android:text="Wybierz produkty"
                 android:textAlignment="center"
                 android:textColor="#8647EC"
                 android:textSize="20sp"
@@ -46,9 +59,8 @@
                     android:layout_weight="1"
                     android:text="Items Total:"
                     android:textColor="#373b54"
-                    android:textStyle="bold"
                     android:textSize="18sp"
-                    />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/ItemsTotalTxt"
@@ -56,9 +68,8 @@
                     android:layout_height="wrap_content"
                     android:text="0$"
                     android:textColor="#373b54"
-                    android:textStyle="bold"
                     android:textSize="18sp"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -153,7 +164,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                app:srcCompat="@drawable/iconhome"/>
+                                app:srcCompat="@drawable/iconhome" />
 
                             <TextView
                                 android:id="@+id/textViewHome"
@@ -175,7 +186,7 @@
                                 android:id="@+id/imageView12"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                app:srcCompat="@drawable/iconprofile"/>
+                                app:srcCompat="@drawable/iconprofile" />
 
                             <TextView
                                 android:id="@+id/textViewProfile"
@@ -199,7 +210,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                app:srcCompat="@drawable/iconcart"/>
+                                app:srcCompat="@drawable/iconcart" />
 
                             <TextView
                                 android:id="@+id/textViewCart"
@@ -264,4 +275,35 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="378dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="1dp"
+        android:text="Komentarze do zamówienia"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="381dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="151dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Wróc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

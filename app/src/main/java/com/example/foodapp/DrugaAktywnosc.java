@@ -32,17 +32,6 @@ public class DrugaAktywnosc extends AppCompatActivity {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
         ImageView imageView = findViewById(R.id.imageView5);
 
         imageView.setOnClickListener(new View.OnClickListener() {
@@ -67,7 +56,7 @@ public class DrugaAktywnosc extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(DrugaAktywnosc.this, RestauracjaJeden.class);
+                Intent intent = new Intent(DrugaAktywnosc.this, CartListActivity.class);
                 startActivity(intent);
             }
         });
@@ -82,7 +71,7 @@ public class DrugaAktywnosc extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(DrugaAktywnosc.this, RestauracjaDwa.class);
+                Intent intent = new Intent(DrugaAktywnosc.this, CartListActivity.class);
                 startActivity(intent);
             }
         });
